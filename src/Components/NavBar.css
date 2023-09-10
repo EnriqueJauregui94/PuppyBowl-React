@@ -1,0 +1,43 @@
+.nav {
+    background-color: #333;
+    /* Background color of the navigation bar */
+    padding: 10px 0;
+    /* Add padding to the top and bottom */
+    list-style-type: none;
+    /* Remove bullet points from the list */
+    text-align: center;
+    /* Center-align the links horizontally */
+    position: fixed;
+    /* Position the navigation bar at the top of the viewport */
+    width: 100%;
+    /* Make the navigation bar take the full width of the viewport */
+    top: 100%;
+    /* Stick it to the top of the viewport */
+}
+
+.nav-item {
+    display: inline;
+    /* Display the list items in a horizontal line */
+    margin-right: 20px;
+    /* Add spacing between list items */
+}
+
+/* Style the links */
+.nav-item a {
+    text-decoration: none;
+    /* Remove underlines from links */
+    color: #fff;
+    /* Text color of the links */
+    font-weight: bold;
+    /* Make the text bold */
+    font-size: 16px;
+    /* Adjust the font size */
+}
+
+/* Style the links on hover */
+.nav-item a:hover {
+    text-decoration: underline;
+    /* Underline links on hover */
+    color: #ff7f00;
+    /* Change link color on hover */
+}

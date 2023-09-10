@@ -1,0 +1,29 @@
+/* AllPlayers.css */
+
+/* Style for the container div */
+div {
+    text-align: center;
+    margin: 20px;
+}
+
+/* Style for the heading */
+h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+/* Style for the error message */
+p.error {
+    color: red;
+}
+
+/* Style for the player list */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    font-size: 18px;
+    margin: 5px 0;
+}

@@ -1,0 +1,26 @@
+/* SinglePlayer.css */
+
+/* Style the container div */
+.single-player-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Style the heading */
+.single-player-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Style the player details */
+.single-player-details {
+    font-size: 16px;
+}
+
+/* Style loading message */
+.loading-message {
+    font-size: 16px;
+    color: #888;
+}
